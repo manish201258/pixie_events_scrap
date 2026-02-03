@@ -1,0 +1,29 @@
+{
+  "name": "pixi-event-scraper",
+  "version": "1.0.0",
+  "description": "Pixie assignment - Event discovery & tracking tool (Node.js scraper + Excel storage)",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape:once": "node src/index.js --once"
+  },
+  "keywords": [
+    "scraping",
+    "events",
+    "bookmyshow",
+    "excel",
+    "cron",
+    "assignment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.6.1",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
